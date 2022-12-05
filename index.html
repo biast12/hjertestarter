@@ -1,10 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hjertestarter.dk redder liv</title>
-    <link rel="icon" href="img/tf_logo.png" type="image/jpg" />
-    <link rel="stylesheet" href="main.css" />
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hjertestarter.dk redder liv</title>
+        <link rel="icon" href="img/tf_logo.png" type="image/jpg" />
+        <link rel="stylesheet" href="main.css" />
+    </head>
+    <header>
+        <div id="logodiv">
+            <a
+                href="index.html">
+                <img
+                    id="logo"
+                    src="img/logo.svg"
+                    alt="logo"
+                    />
+            </a>
+            <button class="sidebarbutton sidebaranimation" onclick="openNav()">&#9776; Du kan redde liv</button>
+            <!--Logind buttonen vil ikke virke grundet -->
+            <button class="Logind" href="index.html">Log ind</button>
+        </div>
+    </header>
+    <body>
+        <div id="minSidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a class="hidetext" href="index.html">Find hjertestartere</a>
+            <a class="hidetext" href="index.html">Sådan redder du liv</a>
+            <a class="hidetext" href="index.html">Hjerteløber</a>
+            <a class="hidetext" href="index.html">Har I en hjertestarter?</a>
+            <a class="hidetext" href="index.html">You can save lives</a>
+        </div>
+        <div id="body">
+
+        </div>
+    </body>
+    <footer>
+        <spanDisclaimer>
+            Denne siden er et skole project for Erhvervsakademi Dania og ikke
+            relateret til Hjertestarter.dk
+        </spanDisclaimer>
+    </footer>
+    <script>
+        const minSidebar = document.getElementById("minSidebar");
+        const hidetext = document.getElementById("hidetext");
+        function openNav() {
+            minSidebar.style.width = "300px";
+            hidetext.style.display = "block";
+        }
+        function closeNav() {
+            minSidebar.style.width = "0";
+            hidetext.style.display = "none";
+        }
+    </script>

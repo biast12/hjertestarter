@@ -1,0 +1,132 @@
+body {
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  transition: 0.4s;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 24px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.sidebarbutton {
+  font-size: 15px;
+  height: 45px;
+  cursor: pointer;
+  float: right;
+  color: black;
+  background-color: white;
+  padding: 10px 15px;
+  border: 2px solid black;
+  border-radius: 20px;
+  position: absolute;
+  top: 25%;
+  right: 7em;
+}
+
+.sidebarbutton:hover {
+  color: white;
+  background-color: black;
+}
+
+.Logind {
+  font-size: 15px;
+  height: 45px;
+  cursor: pointer;
+  float: right;
+  color: red;
+  background-color: white;
+  padding: 10px 15px;
+  border: 2px solid red;
+  border-radius: 20px;
+  position: absolute;
+  top: 25%;
+  right: 1em;
+}
+
+.Logind:hover {
+  color: white;
+  background-color: red;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}
+
+header {
+  border-bottom: 1px solid black;
+  height: 5em;
+  position: relative;
+}
+
+#logodiv {
+  height: 2em;
+  margin: 0 auto;
+  display: block;
+}
+
+#logo {
+  color: white;
+  float: left;
+  font-size: 30px;
+  font-family: "Open Sans";
+  font-weight: bold;
+  text-decoration: none;
+  position: absolute;
+  top: 30%;
+  left: 1%;
+}
+
+footer {
+  height: 3em;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+spanDisclaimer {
+  font-size: 15px;
+  font-family: "Open Sans";
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  margin-top: 1em;
+}
