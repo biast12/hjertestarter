@@ -18,7 +18,7 @@
                     alt="logo"
                     />
             </a>
-            <button class="sidebarbutton sidebaranimation" onclick="openNav()">&#9776; Du kan redde liv</button>
+            <button class="sidebarbutton" onclick="openNav()">&#9776; Du kan redde liv</button>
             <!--Logind buttonen vil ikke virke grundet -->
             <button class="Logind" href="index.html">Log ind</button>
         </div>
@@ -45,6 +45,7 @@
     <script>
         const minSidebar = document.getElementById("minSidebar");
         const hidetext = document.getElementById("hidetext");
+
         function openNav() {
             minSidebar.style.width = "300px";
             hidetext.style.display = "block";
@@ -54,3 +55,4 @@
             hidetext.style.display = "none";
         }
     </script>
+</html>
