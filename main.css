@@ -114,7 +114,50 @@ header {
   left: 1%;
 }
 
-footer {
+#bodyimage {
+  vertical-align: middle;
+  position: relative;
+  width: 100%;
+}
+
+#textbox {
+  background-color: white;
+  vertical-align: middle;
+  position: absolute;
+  width: 900px;
+  height: 30%;
+  border: 1px solid black;
+  border-radius: 20px;
+  top: 25%;
+  left: 15%;
+}
+
+#h1 {
+  color: black;
+  -webkit-text-stroke-width: 0.4px;
+  -webkit-text-stroke-color: gray;
+  position: absolute;
+  font-size: 55px;
+  top: 5%;
+  left: 5%;
+}
+
+#h2 {
+  color: black;
+  -webkit-text-stroke-width: 0.05px;
+  -webkit-text-stroke-color: gray;
+  position: absolute;
+  font-size: 30px;
+  top: 35%;
+  left: 5%;
+}
+
+br2 {
+  margin-top: 20px;
+  display: block;
+}
+
+#Disclaimer {
   height: 3em;
   border-top: 1px solid black;
   border-bottom: 1px solid black;

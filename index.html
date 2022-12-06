@@ -1,58 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Hjertestarter.dk redder liv</title>
-        <link rel="icon" href="img/tf_logo.png" type="image/jpg" />
-        <link rel="stylesheet" href="main.css" />
-    </head>
-    <header>
-        <div id="logodiv">
-            <a
-                href="index.html">
-                <img
-                    id="logo"
-                    src="img/logo.svg"
-                    alt="logo"
-                    />
-            </a>
-            <button class="sidebarbutton" onclick="openNav()">&#9776; Du kan redde liv</button>
-            <!--Logind buttonen vil ikke virke grundet -->
-            <button class="Logind" href="index.html">Log ind</button>
-        </div>
-    </header>
-    <body>
-        <div id="minSidebar" class="sidebar">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a class="hidetext" href="index.html">Find hjertestartere</a>
-            <a class="hidetext" href="index.html">Sådan redder du liv</a>
-            <a class="hidetext" href="index.html">Hjerteløber</a>
-            <a class="hidetext" href="index.html">Har I en hjertestarter?</a>
-            <a class="hidetext" href="index.html">You can save lives</a>
-        </div>
-        <div id="body">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hjertestarter.dk redder liv</title>
+    <link rel="icon" href="img/tf_logo.png" type="image/jpg" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <header>
+    <div id="logodiv">
+      <a href="index.html">
+        <img id="logo" src="img/logo.svg" alt="logo" />
+      </a>
+      <button class="sidebarbutton" onclick="openNav()">&#9776; Du kan redde liv</button>
+      <!--Logind buttonen vil ikke virke grundet -->
+      <button class="Logind" href="index.html">Log ind</button>
+    </div>
+  </header>
+  <body>
+    <div id="minSidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a class="hidetext" href="index.html">Find hjertestartere</a>
+      <a class="hidetext" href="index.html">Sådan redder du liv</a>
+      <a class="hidetext" href="index.html">Hjerteløber</a>
+      <a class="hidetext" href="index.html">Har I en hjertestarter?</a>
+      <a class="hidetext" href="index.html">You can save lives</a>
+    </div>
+    <div id="body">
+      <img id="bodyimage" src="img/bodyimage.png" alt="bodyimage" />
+      <div id="textbox">
+        <h1 id="h1">Sammen redder vi liv</h1>
+        <h2 id="h2">
+          Når en person får hjertestop, er hurtig hjælp afgørende.<br />Sammen redder vi liv – og du kan gøre en forskel.<br />
+          <br2 />
+          Hans blev reddet, da han faldt om. Mød ham nederst på siden.
+        </h2>
+      </div>
+    </div>
+  </body>
+  <footer></footer>
+  <div id="Disclaimer">
+    <spanDisclaimer> Denne siden er et skole project for Erhvervsakademi Dania og ikke relateret til Hjertestarter.dk </spanDisclaimer>
+  </div>
+  <script>
+    const minSidebar = document.getElementById("minSidebar");
+    const hidetext = document.getElementById("hidetext");
 
-        </div>
-    </body>
-    <footer>
-        <spanDisclaimer>
-            Denne siden er et skole project for Erhvervsakademi Dania og ikke
-            relateret til Hjertestarter.dk
-        </spanDisclaimer>
-    </footer>
-    <script>
-        const minSidebar = document.getElementById("minSidebar");
-        const hidetext = document.getElementById("hidetext");
-
-        function openNav() {
-            minSidebar.style.width = "300px";
-            hidetext.style.display = "block";
-        }
-        function closeNav() {
-            minSidebar.style.width = "0";
-            hidetext.style.display = "none";
-        }
-    </script>
+    function openNav() {
+      minSidebar.style.width = "300px";
+      hidetext.style.display = "block";
+    }
+    function closeNav() {
+      minSidebar.style.width = "0";
+      hidetext.style.display = "none";
+    }
+  </script>
 </html>
