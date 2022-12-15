@@ -156,7 +156,7 @@ header {
   -webkit-text-stroke-width: 0.4px;
   -webkit-text-stroke-color: gray;
   position: absolute;
-  font-family: TRYG Column, Arial Black, Arial, sans-serif;
+  font-family: "TRYG Column", Arial Black, Arial, sans-serif;
   font-size: 55px;
   top: 10%;
   left: 5%;
@@ -167,7 +167,7 @@ header {
   -webkit-text-stroke-width: 0.05px;
   -webkit-text-stroke-color: gray;
   position: absolute;
-  font-family: Open Sans, Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 25px;
   top: 35%;
   left: 5%;
@@ -231,11 +231,18 @@ br2 {
 
 #underbodycontainer {
   margin: auto !important;
-  justify-content: center;
   background-color: white;
   border: 1px solid black;
-  width: 70%;
-  height: 2000px;
+  max-width: 1192px;
+}
+
+.underbodytext {
+  column-count: 2;
+  grid-column-gap: 60px;
+  column-gap: 60px;
+  column-fill: balance;
+  margin: 0.75em 0 2em;
+  padding: 0;
 }
 
 #Disclaimer {
