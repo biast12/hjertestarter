@@ -225,26 +225,6 @@ br2 {
   transition: background-color 0.2s ease-out, color 0.2s ease-out;
 }
 
-#underbody {
-  background-color: white;
-}
-
-#underbodycontainer {
-  margin: auto !important;
-  background-color: white;
-  border: 1px solid black;
-  max-width: 1192px;
-}
-
-.underbodytext {
-  column-count: 2;
-  grid-column-gap: 60px;
-  column-gap: 60px;
-  column-fill: balance;
-  margin: 0.75em 0 2em;
-  padding: 0;
-}
-
 #Disclaimer {
   height: 3em;
   border-top: 1px solid black;
