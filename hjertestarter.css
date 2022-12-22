@@ -22,7 +22,6 @@ html {
   --background-color: white;
   --logind-color: red;
   --logo: url(hjertestarterimg/logo.svg);
-  
 }
 
 .dark-mode {
@@ -264,7 +263,6 @@ br2 {
   color: var(--text-color);
   height: 3em;
   border-top: 1px solid var(--text-color);
-  border-bottom: 1px solid var(--text-color);
   text-align: center;
 }
 
